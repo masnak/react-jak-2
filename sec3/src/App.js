@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import "./styles.css";
+import { useState } from "react";
 import { ChildArea } from "./ChildArea";
+import "./styles.css";
 
 function App() {
   console.log("App");
@@ -13,7 +13,10 @@ function App() {
   return (
     <div className="App">
       <h1>test</h1>
-      <input value={text} onChage={onChangeText} />
+      <input value={text} onChange={onChangeText} />
+      <br />
+      <br />
+      <button onClick={() => setText("")}>Clear</button>
       <br />
       <br />
       <button onClick={onClickOpen}>表示</button>
