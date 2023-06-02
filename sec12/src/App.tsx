@@ -6,7 +6,7 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <Button colorScheme="teal">Button</Button>
-      <p>ああああ</p>
+      <p>React Test</p>
     </ChakraProvider>
   );
 }
